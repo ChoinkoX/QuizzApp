@@ -4,6 +4,6 @@ class StartScreen extends StatelessWidget {
   const StartScreen({super.key});
   @override
   Widget build(context) {
-    return const Text('Stat Screen');
+    return const Center(child: Text('Stat Screen'));
   }
 }
